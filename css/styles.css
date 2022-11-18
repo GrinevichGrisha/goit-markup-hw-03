@@ -1,10 +1,3 @@
-/* TODO палітра кольорів макету
-- #000000
-- #2196F3
-- #212121
-- #757575
-- #FFFFFF
-- #F5F4FA */
 :root {
   --primary-color: #212121;
   --second-color: #757575;
@@ -20,6 +13,11 @@ body {
 
 li {
   list-style: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
 }
 
 .link {
@@ -78,12 +76,22 @@ li {
   color: var(--accent-color);
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+  outline: 2px solid green;
+}
+
 /*? Шапка */
 .hero {
   background-color: #2f303a;
+  text-align: center;
 }
 
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
   font-family: 'Roboto';
   font-weight: 900;
   font-size: 44px;
@@ -95,6 +103,8 @@ li {
 }
 
 .btn {
+  display: inline-block;
+  margin-bottom: 200px;
   font-family: 'Roboto';
   font-weight: 700;
   font-size: 16px;
@@ -104,11 +114,22 @@ li {
   color: #ffffff;
   text-align: center;
   letter-spacing: 0.06em;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 216px;
+  border: transparent;
 }
 
 /*? features особливості*/
 
+.section-advantages {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .section-title {
+  margin-top: 0;
+  margin-bottom: 10px;
   font-family: 'Roboto';
   font-size: 14px;
   line-height: 1.14;
@@ -117,6 +138,8 @@ li {
 }
 
 .section-text {
+  margin-top: 0;
+  padding-bottom: 0;
   font-family: 'Roboto';
   font-size: 14px;
   line-height: 1.71;
@@ -128,6 +151,8 @@ li {
 
 .section-head,
 .about-title {
+  margin-top: 0;
+  margin-bottom: 50px;
   font-family: 'Roboto';
   font-weight: 700;
   font-size: 36px;
@@ -144,6 +169,8 @@ li {
 }
 
 .about-subtitle {
+  margin-top: 30px;
+  margin-bottom: 10px;
   font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
@@ -153,6 +180,8 @@ li {
 }
 
 .desc {
+  margin-top: 0;
+  margin-bottom: 30px;
   font-family: 'Roboto';
   font-weight: 400;
   font-size: 16px;
@@ -171,6 +200,8 @@ li {
 }
 
 .footer-item {
+  margin-top: 20px;
+  margin-bottom: 9px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -206,6 +237,7 @@ li {
 /*? Navigation portfolio */
 
 .btn-nav {
+  display: inline-block;
   font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
@@ -215,12 +247,39 @@ li {
   letter-spacing: 0.03em;
   color: var(--primary-color);
   background-color: #f5f4fa;
+  border-radius: 4px;
+  border: transparent;
 }
 
 .btn-nav:hover,
 .btn-nav:focus {
   color: #ffffff;
   background-color: var(--accent-color);
+}
+
+.all {
+  min-width: 73px;
+  padding: 6px 25px;
+}
+
+.web {
+  min-width: 125px;
+  padding: 6px 22px;
+}
+
+.applications {
+  min-width: 112px;
+  padding: 6px 22px;
+}
+
+.design {
+  min-width: 103px;
+  padding: 6px 22px;
+}
+
+.marketing {
+  min-width: 130px;
+  padding: 6px 22px;
 }
 
 /*? Projects */
