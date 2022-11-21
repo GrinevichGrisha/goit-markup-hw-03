@@ -226,16 +226,16 @@ img {
 
 /*? чим ми займаємось*/
 
-.section {
-  padding-bottom: 0;
-}
-
 .section-item {
   display: flex;
 }
 
 .section-item > li:not(:last-child) {
   margin-right: 30px;
+}
+
+.noppading {
+  padding-top: 0px;
 }
 
 .section-head,
@@ -390,7 +390,6 @@ img {
 
 .btn-nav {
   display: inline-block;
-  margin-top: 94px;
   margin-bottom: 30px;
   font-family: 'Roboto';
   font-weight: 500;
