@@ -325,7 +325,6 @@ img {
 }
 
 .logohead-foot {
-  padding-left: 215px;
   margin-bottom: 20px;
   color: var(--accent-color);
 }
@@ -338,7 +337,7 @@ img {
 .footer-item {
   margin-top: 20px;
   margin-bottom: 9px;
-  padding-left: 215px;
+
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -353,7 +352,6 @@ img {
 }
 .footer-mail,
 .footer-tel {
-  padding-left: 215px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -394,7 +392,6 @@ img {
 
 .btn-nav {
   display: inline-block;
-  /*margin-bottom: 30px;*/
   font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
