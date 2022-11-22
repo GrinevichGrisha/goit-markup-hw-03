@@ -85,7 +85,6 @@ img {
   display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
-  padding-left: 93px;
 }
 
 .site-nav > li:not(:last-child) {
@@ -256,7 +255,7 @@ img {
 .about {
   width: 1600px;
   text-align: center;
-  padding: 94px 215px;
+
   margin: 0 auto;
   background: #f5f4fa;
 }
@@ -383,7 +382,7 @@ img {
 }
 
 .portfolio-nav > li {
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .portfolio-nav > li:not(:last-child) {
