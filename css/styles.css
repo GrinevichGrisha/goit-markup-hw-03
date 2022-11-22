@@ -379,11 +379,12 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
-.portfolio-nav > li {
+/*.portfolio-nav > li {
   padding-bottom: 30px;
-}
+}*/
 
 .portfolio-nav > li:not(:last-child) {
   margin-right: 8px;
