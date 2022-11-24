@@ -382,10 +382,6 @@ img {
   margin-bottom: 30px;
 }
 
-/*.portfolio-nav > li {
-  padding-bottom: 30px;
-}*/
-
 .portfolio-nav > li:not(:last-child) {
   margin-right: 8px;
 }
